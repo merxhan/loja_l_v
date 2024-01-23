@@ -4,7 +4,7 @@
         "birthday": "24/05/2004",
         "store": "Sapituca",
         "Seniority": "01/02/2023",
-        "score": 10,
+        "score": 0,
         "image": "sapituca_lorena.png"
     },
     {
@@ -12,7 +12,7 @@
         "birthday": "14/04/1987",
         "store": "Sapituca",
         "Seniority": "01/02/2021",
-        "score": 20,
+        "score": 0,
         "image": "sapituca_thays.png"
     },
     {
@@ -20,7 +20,7 @@
         "birthday": "03/11/1998",
         "store": "Sapituca",
         "Seniority": "01/02/2024",
-        "score": 30,
+        "score": 0,
         "image": "sapituca_samella.png"
     },
     {
@@ -28,7 +28,7 @@
         "birthday": "01/01/1975",
         "store": "Sapituca",
         "Seniority": "01/02/2024",
-        "score": 40,
+        "score": 0,
         "image": "sapituca_rosane.png"
     },
     {
@@ -36,7 +36,7 @@
         "birthday": "21/04/1977",
         "store": "Sapituca",
         "Seniority": "01/02/2024",
-        "score": 50,
+        "score": 0,
         "image": "sapituca_canoa.png"
     },
     {
