@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Loucos por vendas">
+    <meta name="keywords" content="Loucos por vendas">
+    <meta name="author" content="Ing. Jefferson Merchan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loucos por vendas</title>
+    <link rel="shortcut icon" href="./assest/img/utilities/favicon.png">
+    <link href="./assest/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assest/css/birthday.css" rel="stylesheet">
+    <link href="./assest/css/winners.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container py-4">
+
+        <h1 class="py-3 text-center display-2">
+            <strong>Loucos por vendas</strong>
+        </h1>
+
+        <div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="./assest/img/utilities/premio_1.png" class="d-block w-100" height="250em" alt="premio_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assest/img/utilities/premio_2.png" class="d-block w-100" height="250em" alt="premio_2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assest/img/utilities/premio_3.png" class="d-block w-100" height="250em" alt="premio_3">
+                </div>
+            </div>
+        </div>
+
+        <div id="listEmployer"></div>
+
+        <hr>
+
+        <div class="row text-center">
+            <div class="col">
+                <img src="./assest/img/utilities/sapituca.png" class="d-block w-100" alt="sapituca">
+            </div>
+            <div class="col">
+                <img src="./assest/img/utilities/caraminholas.png" class="d-block w-100" alt="caraminholas">
+            </div>
+            <div class="col">
+                <img src="./assest/img/utilities/casa_do_bebe.png" class="d-block w-100" alt="casa_do_bebe">
+            </div>
+        </div>
+
+        <!-- Button Modal -->
+        <button id="btnAniversario" type="button" class="btn btn-primary invisible" data-bs-toggle="modal"
+            data-bs-target="#modalAniversario"></button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalAniversario" tabindex="-1" aria-labelledby="modalAniversarioLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalAniversarioLabel">Aniversário</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body h-100">
+                        <div class="divComponentBirthday text-center">
+                            <h5 id="birthdayName" class="titleBirthday"></h5>
+                            <canvas id="birthday"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assest/js/bootstrap.bundle.min.js"></script>
+    <script src="./assest/js/jquery-3.7.1.min.js"></script>
+    <script src="./logica.js"></script>
+    <script src="./birthday.js"></script>
+
+</body>
+
+</html>
