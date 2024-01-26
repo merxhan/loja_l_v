@@ -34,7 +34,27 @@ $(function () {
                 let [day, month, year] = item.birthday.split('/')
                 const todayIsBirthday = new Date(+year, +month - 1, +day);
 
-                if (today.toDateString() === todayIsBirthday.toDateString()) {
+                let [day_S, month_S, year_S] = item.seniority.split('/')
+                const todaySeniority = new Date(+year_S, +month_S - 1, +day_S);
+
+                var diff = Date.now() - Date.parse(todaySeniority);
+
+                var seconds = Math.floor(diff / 1000),
+                    minutes = Math.floor(seconds / 60),
+                    hours = Math.floor(minutes / 60),
+                    days = Math.floor(hours / 24),
+                    months = Math.floor(days / 30),
+                    years = Math.floor(days / 365);
+
+                days %= 30;
+                months %= 12;
+
+                const seniorityHtml = `
+                ${years > 0 ? `<br> Anos: ${years} ` : ''}
+                ${months > 0 ? `<br> Meses: ${months} ` : ''}
+                ${days > 0 ? `<br> Dias: ${days}` : ''} `;
+
+                if ((todayIsBirthday.getDate() === today.getDate()) && (todayIsBirthday.getMonth() === today.getMonth())) {
                     $("#birthdayName").text(`Aniversário ${item.name}`);
                     $("#btnAniversario").click();
                 }
@@ -65,9 +85,9 @@ $(function () {
                                 <div id="flush-employer_${index + 1}" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
                                     <div class="accordion-body" style='${styleCss}'>
                                         <p><b>${item.store}</b></p>
-                                        ${index > 2 ? `<p><b>Posição:</b> ${index + 1}</p>`: ''}
-                                        <p><b>Aniversario:</b> ${item.birthday.substr(0,5)}</p>
-                                        <p><b>Antiguidade:</b> ${item.Seniority}</p>
+                                        ${index > 2 ? `<p><b>Posição:</b> ${index + 1}</p>` : ''}
+                                        <p><b>Aniversario:</b> ${item.birthday.substr(0, 5)}</p>
+                                        <p><b>Antiguidade:</b> ${seniorityHtml}</p>
                                     </div>
                                 </div>
                             </div>

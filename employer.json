@@ -3,7 +3,7 @@
         "name": "Lorena de Araújo Rezende",
         "birthday": "24/05/2004",
         "store": "Sapituca",
-        "Seniority": "01/02/2023",
+        "seniority": "30/08/2022",
         "score": 0,
         "image": "sapituca_lorena.png"
     },
@@ -11,7 +11,7 @@
         "name": "Thays dos Santos Sousa",
         "birthday": "14/04/1987",
         "store": "Sapituca",
-        "Seniority": "01/02/2021",
+        "seniority": "30/08/2022",
         "score": 0,
         "image": "sapituca_thays.png"
     },
@@ -19,7 +19,7 @@
         "name": "Sâmella betiely Andrade Mendonça",
         "birthday": "03/11/1998",
         "store": "Sapituca",
-        "Seniority": "01/02/2024",
+        "seniority": "27/05/2023",
         "score": 0,
         "image": "sapituca_samella.png"
     },
@@ -27,7 +27,7 @@
         "name": "Rosane Aparecida Correa",
         "birthday": "01/01/1975",
         "store": "Sapituca",
-        "Seniority": "01/02/2024",
+        "seniority": "06/11/2020",
         "score": 0,
         "image": "sapituca_rosane.png"
     },
@@ -35,7 +35,7 @@
         "name": "Jose Canoa de Freitas",
         "birthday": "21/04/1977",
         "store": "Sapituca",
-        "Seniority": "01/02/2024",
+        "seniority": "15/01/2022",
         "score": 0,
         "image": "sapituca_canoa.png"
     },
@@ -43,15 +43,15 @@
         "name": "Clênia aparecida dos Santos",
         "birthday": "24/01/1975",
         "store": "Caraminholas Tamandare",
-        "Seniority": "01/02/2024",
+        "seniority": "01/10/2020",
         "score": 0,
         "image": "tamandare_clenia.png"
     },
     {
-        "name": "Josielma Silva de Abreu ",
+        "name": "Josielma Silva de Abreu",
         "birthday": "10/01/1991",
         "store": "Caraminholas Tamandare",
-        "Seniority": "01/02/2024",
+        "seniority": "01/06/2016",
         "score": 0,
         "image": "tamandare_josielma.png"
     },
@@ -59,7 +59,7 @@
         "name": "Millena Rodrigues Alves",
         "birthday": "23/07/1999",
         "store": "Caraminholas Tamandare",
-        "Seniority": "01/02/2024",
+        "seniority": "01/08/2023",
         "score": 0,
         "image": "tamandare_millena.png"
     },
@@ -67,7 +67,7 @@
         "name": "Gracilene Santos Santiago",
         "birthday": "01/11/1986",
         "store": "Caraminholas Tamandare",
-        "Seniority": "01/02/2024",
+        "seniority": "02/06/2022",
         "score": 0,
         "image": "tamandare_gracilene.png"
     },
@@ -75,7 +75,7 @@
         "name": "Wesley Oliveira Berigo Filho",
         "birthday": "29/11/2000",
         "store": "Caraminholas Marista",
-        "Seniority": "01/02/2024",
+        "seniority": "15/01/2022",
         "score": 0,
         "image": "marista_wesley.png"
     },
@@ -83,7 +83,7 @@
         "name": "Maria Euripia de Oliveira Guimarães",
         "birthday": "10/01/1967",
         "store": "Caraminholas Marista",
-        "Seniority": "01/02/2024",
+        "seniority": "15/01/2003",
         "score": 0,
         "image": "marista_maria.png"
     },
@@ -91,15 +91,15 @@
         "name": "Simone Sousa Silva Santiago",
         "birthday": "30/07/1985",
         "store": "Caraminholas Marista",
-        "Seniority": "01/02/2024",
+        "seniority": "25/08/2021",
         "score": 0,
         "image": "marista_simone.png"
     },
     {
-        "name": "Jaqueline Alves da Silva ",
+        "name": "Jaqueline Alves da Silva",
         "birthday": "02/03/1997",
         "store": "Caraminholas Marista",
-        "Seniority": "01/02/2024",
+        "seniority": "15/01/2022",
         "score": 0,
         "image": "marista_jaqueline.png"
     },
@@ -107,7 +107,7 @@
         "name": "Gabriela Barbosa de Souza",
         "birthday": "15/01/1990",
         "store": "Caraminholas Marista",
-        "Seniority": "01/02/2024",
+        "seniority": "02/07/2022",
         "score": 0,
         "image": "marista_gabriela.png"
     },
@@ -115,7 +115,7 @@
         "name": "Eva Cristina da Silva",
         "birthday": "16/10/1982",
         "store": "Caraminholas Marista",
-        "Seniority": "01/02/2024",
+        "seniority": "08/12/2023",
         "score": 0,
         "image": "marista_eva.png"
     },
@@ -123,7 +123,7 @@
         "name": "Glória Stefane Gonçalves Pereira",
         "birthday": "08/10/2002",
         "store": "Casa do Bebê",
-        "Seniority": "01/02/2024",
+        "seniority": "04/01/2024",
         "score": 0,
         "image": "casaDoBebe_stefane.png"
     },
@@ -131,15 +131,15 @@
         "name": "Maria Djane Costa Farias",
         "birthday": "06/09/1985",
         "store": "Casa do Bebê",
-        "Seniority": "01/02/2024",
+        "seniority": "03/12/2022",
         "score": 0,
         "image": "casaDoBebe_djane.png"
     },
     {
-        "name": "Maria da Glória Teotônio de Castro ",
+        "name": "Maria da Glória Teotônio de Castro",
         "birthday": "06/09/1969",
         "store": "Casa do Bebê",
-        "Seniority": "01/02/2024",
+        "seniority": "01/10/2015",
         "score": 0,
         "image": "casaDoBebe_gloria.png"
     },
@@ -147,7 +147,7 @@
         "name": "Fabiano Guimarães da Conceição",
         "birthday": "11/10/1988",
         "store": "Casa do Bebê",
-        "Seniority": "01/02/2024",
+        "seniority": "01/08/2017",
         "score": 0,
         "image": "casaDoBebe_fabiano.png"
     }
