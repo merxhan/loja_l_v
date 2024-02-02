@@ -50,9 +50,9 @@ $(function () {
                 months %= 12;
 
                 const seniorityHtml = `
-                ${years > 0 ? `<br> Anos: ${years} ` : ''}
-                ${months > 0 ? `<br> Meses: ${months} ` : ''}
-                ${days > 0 ? `<br> Dias: ${days}` : ''} `;
+                ${years > 0 ? `Anos: ${years} ` : ''}
+                ${months > 0 ? `Meses: ${months} ` : ''}
+                ${days > 0 ? `Dias: ${days} ` : ''} `;
 
                 if ((todayIsBirthday.getDate() === today.getDate()) && (todayIsBirthday.getMonth() === today.getMonth())) {
                     $("#birthdayName").text(`Aniversário ${item.name}`);
@@ -79,15 +79,14 @@ $(function () {
                                 <h2 class="accordion-header ">
                                     <button class="accordion-button collapsed" style='${styleCss}' type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-employer_${index + 1}" aria-expanded="false" aria-controls="flush-employer_${index + 1}">
-                                        <h3 class="card-title">${item.name}</h3>   
+                                        <h3 class="card-title">${index > 2 ? `# ${index + 1}` : ''} ${item.name}</h3>   
                                     </button>
                                 </h2>
                                 <div id="flush-employer_${index + 1}" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
                                     <div class="accordion-body" style='${styleCss}'>
                                         <p><b>${item.store}</b></p>
-                                        ${index > 2 ? `<p><b>Posição:</b> ${index + 1}</p>` : ''}
-                                        <p><b>Aniversario:</b> ${item.birthday.substr(0, 5)}</p>
-                                        <p><b>Antiguidade:</b> ${seniorityHtml}</p>
+                                        <p class='my-0'><b>Aniversario:</b> <br> ${item.birthday.substr(0, 5)}</p>
+                                        <p class='my-0'><b>Tempo de empresa:</b> <br> ${seniorityHtml}</p>
                                     </div>
                                 </div>
                             </div>
