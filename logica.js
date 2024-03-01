@@ -69,7 +69,7 @@ $(function () {
                     }
                 }
 
-                listEmployer += `
+                listEmployer += index < 10 ? `
                 <div class="card w-100 my-4" style='${styleCss}'>
                     <img src="./assest/img/employers/${item.image}" class="card-img-top p-3 rounded-top" alt="img_${item.name}">
                     <div class="card-body text-center">        
@@ -91,16 +91,15 @@ $(function () {
                                 </div>
                             </div>
                         </div>
-                        <hr>                                        
-                        <div class="progress" role="progressbar" aria-label="1" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100" style="height: 3em">
+                        <hr>      
+                        <div class="progress" role="progressbar" aria-label="1" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 3em">
                             <div class="progress-bar progress-bar-striped ${progressCss} progress-bar-animated" style="width: ${parseFloat(secondPercentage).toFixed(0)}%">
                                 <p class="text-center fs-1 mt-3"><strong>${item.score}</strong></p>
                             </div>
-                        </div>               
+                        </div> 
                     </div>
                 </div>
-                `;
+                ` : '';
 
             });
 
