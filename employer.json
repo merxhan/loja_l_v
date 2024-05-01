@@ -4,7 +4,7 @@
         "birthday": "24/05/2004",
         "store": "Sapituca",
         "seniority": "30/08/2022",
-        "score": 0,
+        "score": 59,
         "image": "sapituca_lorena.png"
     },
     {
@@ -12,7 +12,7 @@
         "birthday": "03/11/1998",
         "store": "Sapituca",
         "seniority": "27/05/2023",
-        "score": 55,
+        "score": 68,
         "image": "sapituca_samella.png"
     },
     {
@@ -20,7 +20,7 @@
         "birthday": "05/06/1975",
         "store": "Sapituca",
         "seniority": "06/11/2020",
-        "score": 58,
+        "score": 61,
         "image": "sapituca_rosane.png"
     },
     {
@@ -28,7 +28,7 @@
         "birthday": "21/04/1977",
         "store": "Sapituca",
         "seniority": "15/01/2022",
-        "score": 70,
+        "score": 65,
         "image": "sapituca_canoa.png"
     },
     {
@@ -36,7 +36,7 @@
         "birthday": "24/01/1975",
         "store": "Caraminholas Tamandare",
         "seniority": "01/10/2020",
-        "score": 58,
+        "score": 59,
         "image": "tamandare_clenia.png"
     },
     {
@@ -44,7 +44,7 @@
         "birthday": "10/01/1991",
         "store": "Caraminholas Tamandare",
         "seniority": "01/06/2016",
-        "score": 56,
+        "score": 59,
         "image": "tamandare_josielma.png"
     },
     {
@@ -52,7 +52,7 @@
         "birthday": "23/07/1999",
         "store": "Caraminholas Tamandare",
         "seniority": "01/08/2023",
-        "score": 51,
+        "score": 48,
         "image": "tamandare_millena.png"
     },
     {
@@ -60,7 +60,7 @@
         "birthday": "01/11/1986",
         "store": "Caraminholas Tamandare",
         "seniority": "02/06/2022",
-        "score": 67,
+        "score": 60,
         "image": "tamandare_gracilene.png"
     },
     {
@@ -68,7 +68,7 @@
         "birthday": "29/11/2000",
         "store": "Caraminholas Marista",
         "seniority": "15/01/2022",
-        "score": 64,
+        "score": 71,
         "image": "marista_wesley.png"
     },
     {
@@ -76,7 +76,7 @@
         "birthday": "10/01/1967",
         "store": "Caraminholas Marista",
         "seniority": "15/01/2003",
-        "score": 39,
+        "score": 52,
         "image": "marista_maria.png"
     },
     {
@@ -84,7 +84,7 @@
         "birthday": "30/07/1985",
         "store": "Caraminholas Marista",
         "seniority": "25/08/2021",
-        "score": 63,
+        "score": 69,
         "image": "marista_simone.png"
     },
     {
@@ -100,7 +100,7 @@
         "birthday": "15/01/1990",
         "store": "Caraminholas Marista",
         "seniority": "02/07/2022",
-        "score": 69,
+        "score": 68,
         "image": "marista_gabriela.png"
     },
     {
@@ -108,7 +108,7 @@
         "birthday": "16/10/1982",
         "store": "Caraminholas Marista",
         "seniority": "08/12/2023",
-        "score": 34,
+        "score": 45,
         "image": "marista_eva.png"
     },
     {
@@ -116,7 +116,7 @@
         "birthday": "08/10/2002",
         "store": "Casa do Bebê",
         "seniority": "04/01/2024",
-        "score": 51,
+        "score": 0,
         "image": "casaDoBebe_stefane.png"
     },
     {
@@ -124,7 +124,7 @@
         "birthday": "06/09/1985",
         "store": "Casa do Bebê",
         "seniority": "03/12/2022",
-        "score": 36,
+        "score": 0,
         "image": "casaDoBebe_djane.png"
     },
     {
@@ -132,7 +132,7 @@
         "birthday": "06/09/1969",
         "store": "Casa do Bebê",
         "seniority": "01/10/2015",
-        "score": 62,
+        "score": 55,
         "image": "casaDoBebe_gloria.png"
     },
     {
@@ -140,7 +140,7 @@
         "birthday": "11/10/1988",
         "store": "Casa do Bebê",
         "seniority": "01/08/2017",
-        "score": 61,
+        "score": 69,
         "image": "casaDoBebe_fabiano.png"
     }
 ]
